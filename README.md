@@ -4,6 +4,8 @@
 
 VsCode : Edit in settings.json
 
+![alt text](./settings.png)
+
 add : 
 ```
     "terminal.integrated.defaultProfile.linux": "bash",
@@ -15,4 +17,6 @@ add :
     }
 ```
 
-restart VsCode and kill Terminal + new termial
+![alt text](./settings2.png)
+
+Restart VsCode and kill Terminal + new termial
