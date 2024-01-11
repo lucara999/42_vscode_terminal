@@ -8,12 +8,16 @@ VsCode : Edit in settings.json
 
 add : 
 ```
-    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.profiles.linux": {
-        "bash": {
-            "path": "/usr/bin/flatpak-spawn",
-            "args": ["--host", "--env=TERM=xterm-256color", "zsh"]
-        }
+      "zsh": {
+        "path": "host-spawn",
+        "args": ["zsh"]
+      },
+      "bash": {
+        "path": "host-spawn",
+        "args": ["bash"]
+      }
     }
 ```
 
